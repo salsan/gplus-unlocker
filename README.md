@@ -1,7 +1,9 @@
 # Gplus Unlocker - Chrome Extension
 
 <p align="center">
+
 ![image](https://github.com/salsan/gplus-unlocker/assets/111319/cd8e3009-9b10-4550-a6e4-07ced8cf70e1)
+
 </p>
 
 Gplus Unlocker is a Chrome extension that unlocks the premium articles on Gazzetta.it, providing access to G+ content available on Google Showcase.
