@@ -4,7 +4,7 @@
 "version": "0.0.1",
 "manifest_version": 3,
 "author": "salsan",
-"homepage_url": "https://salsan.dev",
+"homepage_url": "https://github.com/salsan/gplus-unlocker",
 "content_scripts": [{
       "matches": ["*://*.gazzetta.it/*"],
       "js": ["contentScript.js"]
