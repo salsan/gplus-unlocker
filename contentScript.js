@@ -16,7 +16,6 @@ if (window.location.href.includes("_preview")) {
 
       hidePaywall();
       footerPage();
-
     };
   }
 }
@@ -29,6 +28,7 @@ function getShowCaseUrl() {
 }
 
 function refreshPage(url) {
+  // deepcode ignore OR: <redirect to Google Showcase url>
   window.location = url;
 }
 
@@ -76,5 +76,4 @@ function footerPage() {
   let height = columns[1].offsetHeight;
 
   footer.style.marginTop = `${height}px`;
-
 }
