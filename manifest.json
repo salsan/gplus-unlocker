@@ -1,27 +1,36 @@
 {
-"name": "Gazzetta G+ Unlocker",
-"description": "Chrome Extension to Unlock Gazzetta.it Premium Content",
-"version": "0.0.1",
-"manifest_version": 3,
-"author": "salsan",
-"homepage_url": "https://github.com/salsan/gplus-unlocker",
-"content_scripts": [{
-      "matches": ["*://*.gazzetta.it/*"],
-      "js": ["contentScript.js"]
-    }],
-"host_permissions": ["*://*.gazzetta.it/*", "https://.gazzetta.it/"],
-"action": {
-       "default_icon": {
-        "16": "/images/16.png",
-        "32": "/images/32.png",
-        "48": "/images/48.png",
-        "128": "/images/128.png"
+  "name": "Gazzetta G+ Unlocker",
+  "description": "Chrome Extension to Unlock Gazzetta.it Premium Content",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "author": "salsan",
+  "homepage_url": "https://github.com/salsan/gplus-unlocker",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.gazzetta.it/*"
+      ],
+      "js": [
+        "contentScript.js"
+      ]
     }
-}, 
-"icons": {
-  "16": "/images/16.png",
-  "32": "/images/32.png",
-  "48": "/images/48.png",
-  "128": "/images/128.png"
-}  
+  ],
+  "host_permissions": [
+    "*://*.gazzetta.it/*",
+    "https://.gazzetta.it/"
+  ],
+  "action": {
+    "default_icon": {
+      "16": "/images/16.png",
+      "32": "/images/32.png",
+      "48": "/images/48.png",
+      "128": "/images/128.png"
+    }
+  },
+  "icons": {
+    "16": "/images/16.png",
+    "32": "/images/32.png",
+    "48": "/images/48.png",
+    "128": "/images/128.png"
+  }
 }
