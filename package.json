@@ -1,6 +1,6 @@
 {
   "name": "gplus-unlocker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Gplus Unlocker is a webextensions that unlocks the premium articles on Gazzetta.it",
   "main": "src/",
   "scripts": {
