@@ -1,0 +1,28 @@
+{
+  "name": "gplus-unlocker",
+  "version": "1.0.0",
+  "description": "Gplus Unlocker is a webextensions that unlocks the premium articles on Gazzetta.it",
+  "main": "src/",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build (firefox)": "web-ext build  -s=./src -a=./build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salsan/gplus-unlocker.git"
+  },
+  "keywords": [
+    "paywall-unlocker",
+    "paywall-blocker",
+    "paywall-bypass"
+  ],
+  "author": "Salvatore Santagati",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/salsan/gplus-unlocker/issues"
+  },
+  "homepage": "https://github.com/salsan/gplus-unlocker#readme",
+  "dependencies": {
+
+  }
+}
