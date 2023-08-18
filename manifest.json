@@ -1,8 +1,13 @@
 {
+  "manifest_version": 3,
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{4cb4516c-a0b4-4c79-adec-dea93a98adea}"
+    }
+  },  
+  "version": "1.0.0",
   "name": "Gazzetta G+ Unlocker",
   "description": "Chrome Extension to Unlock Gazzetta.it Premium Content",
-  "version": "0.0.1",
-  "manifest_version": 3,
   "author": "salsan",
   "homepage_url": "https://github.com/salsan/gplus-unlocker",
   "content_scripts": [
