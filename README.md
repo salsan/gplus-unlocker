@@ -2,7 +2,7 @@
 
 <p align="center">
 
-![image](https://github.com/salsan/gplus-unlocker/assets/111319/cd8e3009-9b10-4550-a6e4-07ced8cf70e1)
+![image](https://raw.githubusercontent.com/salsan/gplus-unlocker/main/src/images/logo.png)
 
 </p>
 
