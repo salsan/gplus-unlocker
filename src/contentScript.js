@@ -7,12 +7,18 @@ if (window.location.href.includes("_preview")) {
   } else {
     window.onload = () => {
       let article = getArticleFromJson();
-
       let content = document.querySelectorAll("div.content");
-      content[2].innerHTML =
-        '<p class="has-first-letter">' +
-        article +
-        `</p><div class="container-last-content-desktop"></div>`;
+
+      let paragraph = document.createElement("p");
+      paragraph.classList.add("has-first-letter");
+      paragraph.textContent = article;
+
+      let container = document.createElement("div");
+      container.classList.add("container-last-content-desktop");
+
+      content[2].innerHTML = ""; // Clear existing content and append new elements
+      content[2].appendChild(paragraph);
+      content[2].appendChild(container);
 
       hidePaywall();
       footerPage();
