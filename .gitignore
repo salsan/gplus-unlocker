@@ -1,0 +1,4 @@
+.web-extension-id
+.env
+node_modules/*
+build/*
