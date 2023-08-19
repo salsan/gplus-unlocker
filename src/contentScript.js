@@ -11,7 +11,7 @@ if (window.location.href.includes("_preview")) {
 
       let paragraph = document.createElement("p");
       paragraph.classList.add("has-first-letter");
-      paragraph.textContent = article;
+      paragraph.textContent = article.replace(/&nbsp;/g, ' ');
 
       let container = document.createElement("div");
       container.classList.add("container-last-content-desktop");
