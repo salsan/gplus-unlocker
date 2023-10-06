@@ -1,11 +1,11 @@
 {
   "name": "gplus-unlocker",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Gplus Unlocker is a webextensions that unlocks the premium articles on Gazzetta.it",
   "main": "src/",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build (firefox)": "web-ext build  -s=./src -a=./build"
+    "firefox:test": "web-ext run -s=./src --firefox=firefoxdeveloperedition",
+    "firefox:build": "web-ext build  -s=./src -a=./build"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,7 @@
     "url": "https://github.com/salsan/gplus-unlocker/issues"
   },
   "homepage": "https://github.com/salsan/gplus-unlocker#readme",
-  "dependencies": {
-
+  "devDependencies": {
+    "web-ext": "^7.8.0"
   }
 }

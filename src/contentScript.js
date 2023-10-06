@@ -5,24 +5,22 @@ if (window.location.href.includes("_preview")) {
     url = getShowCaseUrl();
     refreshPage(url);
   } else {
-    window.onload = () => {
-      let article = getArticleFromJson();
-      let content = document.querySelectorAll("div.content");
+    let article = getArticleFromJson();
+    let content = document.querySelectorAll("div.content");
 
-      let paragraph = document.createElement("p");
-      paragraph.classList.add("has-first-letter");
-      paragraph.textContent = article.replace(/&nbsp;/g, ' ');
+    let paragraph = document.createElement("p");
+    paragraph.classList.add("has-first-letter");
+    paragraph.textContent = article.replace(/&nbsp;/g, " ");
 
-      let container = document.createElement("div");
-      container.classList.add("container-last-content-desktop");
+    let container = document.createElement("div");
+    container.classList.add("container-last-content-desktop");
 
-      content[2].innerHTML = ""; // Clear existing content and append new elements
-      content[2].appendChild(paragraph);
-      content[2].appendChild(container);
+    content[2].innerHTML = ""; // Clear existing content and append new elements
+    content[2].appendChild(paragraph);
+    content[2].appendChild(container);
 
-      hidePaywall();
-      footerPage();
-    };
+    hidePaywall();
+    footerPage();
   }
 }
 
@@ -83,3 +81,5 @@ function footerPage() {
 
   footer.style.marginTop = `${height}px`;
 }
+
+
