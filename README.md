@@ -1,4 +1,4 @@
-# Gplus Unlocker - Chrome Extension
+# Gplus Unlocker - Web Extension 
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/salsan/gplus-unlocker/main/src/images/logo.png" alt="Gplus Unlocker"/>
