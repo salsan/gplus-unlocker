@@ -40,7 +40,7 @@ function refreshPage(url) {
 
 function isShowCaseUrl() {
   // Google ShowCase Url Style
-  const regex = new RegExp("\\d+_preview.shtml", "");
+  const regex = new RegExp("\\d{13}_preview.shtml", "");
 
   return regex.test(window.location.href) ? true : false;
 }
