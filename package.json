@@ -2,10 +2,14 @@
   "name": "gplus-unlocker",
   "version": "1.0.2",
   "description": "Gplus Unlocker is a webextensions that unlocks the premium articles on Gazzetta.it",
-  "main": "src/",
+  "main": "src",
+  "webExt": {
+    "sourceDir": "src/"
+  },
   "scripts": {
     "firefox:test": "web-ext run -s=./src --firefox=firefoxdeveloperedition",
-    "firefox:build": "web-ext build  -s=./src -a=./build"
+    "firefox:build": "web-ext build  -a=./build",
+    "firefox:lint" : "web-ext lint"
   },
   "repository": {
     "type": "git",
