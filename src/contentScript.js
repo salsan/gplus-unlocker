@@ -15,9 +15,9 @@ if (window.location.href.includes("_preview")) {
     let container = document.createElement("div");
     container.classList.add("container-last-content-desktop");
 
-    content[2].innerHTML = ""; // Clear existing content and append new elements
-    content[2].appendChild(paragraph);
-    content[2].appendChild(container);
+    content[content-1].innerHTML = ""; // Clear existing content and append new elements
+    content[content-1].appendChild(paragraph);
+    content[content-1].appendChild(container);
 
     hidePaywall();
     footerPage();
@@ -38,7 +38,7 @@ function refreshPage(url) {
 
 function isShowCaseUrl() {
   // Google ShowCase Url Style
-  const regex = new RegExp("\\d{12,13}_preview.shtml", "");
+  const regex = new RegExp("\\d{1content-1,13}_preview.shtml", "");
 
   return regex.test(window.location.href) ? true : false;
 }
