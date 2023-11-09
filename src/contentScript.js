@@ -15,9 +15,9 @@ if (window.location.href.includes("_preview")) {
     let container = document.createElement("div");
     container.classList.add("container-last-content-desktop");
 
-    content[2].innerHTML = ""; // Clear existing content and append new elements
-    content[2].appendChild(paragraph);
-    content[2].appendChild(container);
+    content[content.length-1].innerHTML = ""; // Clear existing content and append new elements
+    content[content.length-1].appendChild(paragraph);
+    content[content.length-1].appendChild(container);
 
     hidePaywall();
     footerPage();
