@@ -27,6 +27,6 @@
   },
   "homepage": "https://github.com/salsan/gplus-unlocker#readme",
   "devDependencies": {
-    "web-ext": "^7.9.0"
+    "web-ext": "^8.2.0"
   }
 }
